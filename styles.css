@@ -1,0 +1,165 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+body{
+  background:linear-gradient(135deg,#020b2c,#061a4d,#0b1d3a);
+  color:#f5e6c8;
+}
+
+/* NAVBAR */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  background:rgba(0,0,0,0.4);
+  backdrop-filter:blur(10px);
+  position:fixed;
+  width:100%;
+  top:0;
+}
+
+.logo-section{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.logo-img{
+  width:45px;
+  height:45px;
+}
+
+.logo-text{
+  font-family:'Cinzel';
+  font-size:24px;
+  color:#d4af37;
+}
+
+.nav-links a{
+  margin-left:20px;
+  text-decoration:none;
+  color:#fff;
+  font-size:14px;
+}
+
+.nav-links a:hover{
+  color:#d4af37;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:150px 20px 80px;
+}
+
+.hero h1{
+  font-size:70px;
+  color:#d4af37;
+  font-family:'Cinzel';
+}
+
+.hero h2{
+  font-size:24px;
+  margin-top:10px;
+}
+
+.hero p{
+  max-width:700px;
+  margin:20px auto;
+  line-height:1.8;
+}
+
+.tagline{
+  font-style:italic;
+  color:#d4af37;
+  margin:20px 0;
+  font-size:20px;
+}
+
+.buttons{
+  margin-top:20px;
+}
+
+.btn{
+  padding:12px 25px;
+  border-radius:30px;
+  margin:10px;
+  text-decoration:none;
+  display:inline-block;
+}
+
+.gold{
+  background:#d4af37;
+  color:#000;
+}
+
+.outline{
+  border:1px solid #d4af37;
+  color:#d4af37;
+}
+
+/* COLLECTION */
+.collection{
+  padding:80px 10%;
+  text-align:center;
+}
+
+.collection h2{
+  font-size:36px;
+  color:#d4af37;
+  margin-bottom:40px;
+  font-family:'Cinzel';
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:20px;
+}
+
+.card{
+  background:rgba(255,255,255,0.05);
+  padding:30px;
+  border-radius:15px;
+  border:1px solid rgba(212,175,55,0.2);
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:50px 20px;
+  background:#050d24;
+}
+
+footer h3{
+  font-family:'Cinzel';
+  color:#d4af37;
+  font-size:30px;
+}
+
+.social{
+  margin:20px 0;
+}
+
+.social a{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin:10px;
+  color:#fff;
+  text-decoration:none;
+}
+
+.social img{
+  width:20px;
+}
+
+.copyright{
+  font-size:12px;
+  color:#aaa;
+}
